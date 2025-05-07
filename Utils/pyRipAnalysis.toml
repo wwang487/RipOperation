@@ -1,0 +1,23 @@
+[project]
+name = "pyRipAnalysis"
+version = "0.0.1"
+authors = [
+  { name = "Wei Wang", email = "wwang487@wisc.edu" },
+]
+dependencies = [pandas, scipy, datetime, numpy, seaborn, matplotlib, tqdm, copy, pytz, netCDF4]
+description = "This is a package to analyze rip current associated data, including the detection result as a json file, wave data, wind data, and water level data"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
