@@ -1,5 +1,5 @@
 # RipOperation
-## -A python code gallery for analyzing flash rips and associated environmental variables
+## A python code gallery for analyzing flash rips and associated environmental variables
 This is the code for tracking rip currents and characterizing their features from web-cam images.
 
 ## Background
