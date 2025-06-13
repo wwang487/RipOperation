@@ -14,6 +14,8 @@ The Lifeguarding Operational Camera Kiosk System (LOCKS) is a real-time monitori
 
 !['./LOCKS_Site.jpg'](https://github.com/wwang487/RipOperation/blob/main/LOCKS_Site.jpg)
 
+The detection of flash rips is conducted by Refined Cascade R-CNN, 
+
 ## Contributor
 Wei Wang, University of Wisconsin-Madison
 
