@@ -4,6 +4,8 @@ This is the code for tracking rip currents and characterizing their features fro
 ## Background-LOCKS
 Lifeguarding Operational Camera Kiosk System (LOCKS) is a 
 
+[LOCKS Site information] ('./LOCKS_Site.jpg')
+
 ## Contributor
 Wei Wang, University of Wisconsin-Madison
 
