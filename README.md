@@ -1,10 +1,11 @@
-# RipOperation
+# RipOperation-A python code gallery for analyzing flash rips and associated environmental variables.
 This is the code for tracking rip currents and characterizing their features from web-cam images.
 
-## Background-Flash Rips
+## Background
+### Flash Rips
 Rip currents are narrow, fast-moving flows that move seaward and can quickly carry swimmers away from the shoreline, causing numerous drowning fatalities. They are often driven by bathymetric features such as rip channels and nearshore structures, but can also form purely due to hydrodynamic conditions—these are known as flash rips. Flash rips are particularly dangerous because they are intermittent, transient, and can occur on seemingly featureless beaches, making them difficult to predict and detect.
 
-## Background-LOCKS
+### LOCKS
 The Lifeguarding Operational Camera Kiosk System (LOCKS) is a real-time monitoring system for rip current detection and warning, deployed at Port Washington, Wisconsin, on the western shore of Lake Michigan. LOCKS captures water surface images every 10 seconds and transmits them to a backend PC station for processing. If hazardous flash rip currents are detected, the system automatically issues alerts through an on-site warning system.
 
 !['./LOCKS_Site.jpg'](https://github.com/wwang487/RipOperation/blob/main/LOCKS_Site.jpg)
