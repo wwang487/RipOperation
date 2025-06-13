@@ -1,7 +1,10 @@
 # RipOperation
-This is the code for tracking rip currents and characterizing their features.
+This is the code for tracking rip currents and characterizing their features from web-cam images.
 
-# Contributor
+## Background-LOCKS
+Lifeguarding Operational Camera Kiosk System (LOCKS) is a 
+
+## Contributor
 Wei Wang, University of Wisconsin-Madison
 
 Yuli Liu, University of Wisconsin-Madison; Nanjing University of Information Science and Technology
