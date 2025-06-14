@@ -33,8 +33,8 @@ Once flash rip events are detected—or environmental conditions suggest a high 
   <img src="https://github.com/wwang487/RipOperation/blob/main/LOCKS_Inside.jpg" width="50%">
 </p>
 
-## Flash Rip Characterization
-Once all flash rip objects are detected, their front lines are tracked over time. Events are segmented based on the front-line movement. A flash rip event is defined as one where the front line moves more than 10 meters offshore, continues moving outward, and does not retract to less than half of the maximum offshore distance or remain in retreat for more than five minutes. For each identified event, key characteristics—including offshore distance, alongshore position, duration, and movement speed—are recorded. An example of the flash rip characterization process is provided in NewRipDataAnalysisUpload.ipynb.
+## Flash Rip Characterization and Identification
+Once all flash rip objects are detected, their front lines are tracked over time. Events are segmented based on the front-line movement. A flash rip event is defined as one where the front line moves more than 10 meters offshore, continues moving outward, and does not retract to less than half of the maximum offshore distance or remain in retreat for more than five minutes. For each identified event, key characteristics—including offshore distance, alongshore position, duration, and movement speed—are recorded. The driving factors of flash rips are identified based on significant wave conditions and water level fluctuations, and are classified into three categories: water-level-induced, normal-wave-induced, and oblique-wave-induced. An example of the flash rip characterization and identification process is provided in NewRipDataAnalysisUpload.ipynb.
 
 ## Contributor
 Wei Wang, University of Wisconsin-Madison
