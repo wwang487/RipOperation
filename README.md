@@ -28,7 +28,7 @@ The optimal model obtained from training is then applied to new incoming images 
   <img src="https://github.com/wwang487/RipOperation/blob/main/Refinement.jpg">
 </p>
 
-Once the flash rip events were detected, or the associated environmental conditions indicate highly-possible for flash rip occurrence, the warning system will alarm the beachgoers, in which the red light will on, and warning messages will be shown on the Kiosk screen.
+Once flash rip events are detected—or environmental conditions suggest a high likelihood of their occurrence—the warning system alerts beachgoers. A red light is activated, and warning messages are displayed on the Kiosk screen.
 <p align="center">
   <img src="https://github.com/wwang487/RipOperation/blob/main/LOCKS_Inside.jpg">
 </p>
