@@ -18,9 +18,8 @@ The Lifeguarding Operational Camera Kiosk System (LOCKS) is a real-time monitori
 Flash rip detection is performed using a Refined Cascade R-CNN framework. The model is first trained on a manually labeled dataset, where bounding boxes delineate flash rip regions versus background. Training and inference are implemented using mmDetection, an open-source toolbox developed by OpenMMLab. Once trained, the best-performing Cascade R-CNN model is used to infer flash rips in newly acquired images. The cascade structure is configured with Intersection over Union (IoU) thresholds of 0.45, 0.55, and 0.65.
 !['./Cascade.jpg'](https://github.com/wwang487/RipOperation/blob/main/Cascade.jpg)
 
-run the post-detection refinement, as illustrated in https://github.com/wwang487/RefinedCascadeRCNN. The output would include the flash rip box position, and the probability. 
-
-
+The optimal model obtained from training is then applied to new incoming images for flash rip detection. As illustrated in RefinedCascadeRCNN, a post-processing step is implemented to enhance detection precision. In this step, flash rip candidates with low confidence scores (p-values) or overly flat shapes are removed, and overlapping or intersecting detections are merged. The thresholds used in this refinement process are informed by field observations and expert knowledge. This refinement strategy significantly improves precision, increasing it by more than 10%.
+!['./Refinement.jpg'](https://github.com/wwang487/RipOperation/blob/main/Refinement.jpg)
 
 ## Contributor
 Wei Wang, University of Wisconsin-Madison
