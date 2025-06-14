@@ -1,5 +1,5 @@
 # RipOperation
-## A python code gallery for flash rip detection, tracking, and characterization
+### A python code gallery for flash rip detection, tracking, and characterization
 This is the code for tracking rip currents and characterizing their features from web-cam images.
 
 ## Background
@@ -30,8 +30,11 @@ The optimal model obtained from training is then applied to new incoming images 
 
 Once flash rip events are detected—or environmental conditions suggest a high likelihood of their occurrence—the warning system alerts beachgoers. A red light is activated, and warning messages are displayed on the Kiosk screen.
 <p align="center">
-  <img src="https://github.com/wwang487/RipOperation/blob/main/LOCKS_Inside.jpg">
+  <img src="https://github.com/wwang487/RipOperation/blob/main/LOCKS_Inside.jpg" width="50%">
 </p>
+
+## Flash Rip Characterization
+
 
 ## Contributor
 Wei Wang, University of Wisconsin-Madison
