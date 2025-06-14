@@ -14,7 +14,12 @@ The Lifeguarding Operational Camera Kiosk System (LOCKS) is a real-time monitori
 
 !['./LOCKS_Site.jpg'](https://github.com/wwang487/RipOperation/blob/main/LOCKS_Site.jpg)
 
-The detection of flash rips is conducted by Refined Cascade R-CNN, 
+## Refined Cascade R-CNN Detection Framework
+The detection of flash rips is conducted by Refined Cascade R-CNN, first, trained the manually marked dataset (the bounding rectangular of flash rip object vs background) using mmDetection provided by openmmLab, then inference the new-incoming images using the best performed Cascade R-CNN model, the Cascade structure is set with IOU of 0.45, 0.55, 0.65.
+
+run the post-detection refinement, as illustrated in https://github.com/wwang487/RefinedCascadeRCNN. The output would include the flash rip box position, and the probability. 
+
+
 
 ## Contributor
 Wei Wang, University of Wisconsin-Madison
