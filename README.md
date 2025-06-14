@@ -34,7 +34,7 @@ Once flash rip events are detected—or environmental conditions suggest a high 
 </p>
 
 ## Flash Rip Characterization
-
+Once all flash rip objects are detected, their front lines are tracked over time. Events are segmented based on the front-line movement. A flash rip event is defined as one where the front line moves more than 10 meters offshore, continues moving outward, and does not retract to less than half of the maximum offshore distance or remain in retreat for more than five minutes. For each identified event, key characteristics—including offshore distance, alongshore position, duration, and movement speed—are recorded. An example of the flash rip characterization process is provided in NewRipDataAnalysisUpload.ipynb.
 
 ## Contributor
 Wei Wang, University of Wisconsin-Madison
